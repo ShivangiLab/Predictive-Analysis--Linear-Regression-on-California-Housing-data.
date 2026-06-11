@@ -1,20 +1,20 @@
 Linear Regression Analysis with Python
-##Overview
+### Overview
 
 This lab introduces the fundamentals of predictive analytics through the implementation of a Linear Regression model using Python and Scikit-learn.
 
 Using the California Housing dataset, the project explores the complete machine learning workflow, including:
 
-##Data loading and preparation
+### Data loading and preparation
 Train-test splitting
 Linear Regression model training
 Model evaluation using Mean Squared Error (MSE)
 Performance analysis using R² Score
 
-##Dataset
+### Dataset
 The project uses the California Housing dataset available through Scikit-learn.
 
-##Features
+### Features
 The dataset contains housing-related attributes including:
 Median Income
 House Age
@@ -27,8 +27,8 @@ Longitude
 Target Variable
 Median House Value
 
-##The objective is to predict housing prices based on the provided features.
-##Project Tasks
+## The objective is to predict housing prices based on the provided features.
+## Project Tasks
 1. Data Preparation
 Imported required Python libraries
 Loaded the California Housing dataset
@@ -45,15 +45,14 @@ A Linear Regression model was implemented using Scikit-learn.
 The model learns the relationship between housing characteristics and median house values by fitting a linear equation to the training data.
 
 4. Model Evaluation – Mean Squared Error (MSE)
-
-##Results:
+## Results:
 Dataset	MSE
 Training	0.518
 Testing	0.556
 The testing MSE is only slightly higher than the training MSE, indicating good generalization and minimal overfitting.
 
 5. Model Evaluation – R² Score
-##Results:
+## Results:
 Dataset	R² Score
 Training	0.613
 Testing	0.576
@@ -62,13 +61,13 @@ The model explains approximately:
 61.3% of the variance in housing prices on training data
 57.6% of the variance in housing prices on testing data
 
-##Key Findings
+## Key Findings
 The model demonstrates moderate predictive performance.
 Training and testing metrics are relatively close, suggesting good generalization.
 More than half of the variation in housing prices is explained by the selected features.
 The model does not exhibit significant overfitting.
 
-##Technologies Used
+## Technologies Used
 Python
 Pandas
 NumPy
@@ -77,7 +76,7 @@ Seaborn
 Scikit-learn
 Jupyter Notebook / Google Colab
 
-##Learning Outcomes
+## Learning Outcomes
 Through this lab, I gained practical experience with:
 Data preprocessing
 Train-test splitting
@@ -86,6 +85,6 @@ Model evaluation using MSE
 Model evaluation using R² Score
 Interpreting regression performance metrics
 
-##Author
+## Author
 Shivangi Jaidka
 Business Analytics - Seneca Polytechnic
