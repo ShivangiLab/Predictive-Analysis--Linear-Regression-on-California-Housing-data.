@@ -1,4 +1,4 @@
-Linear Regression Analysis with Python
+### Linear Regression Analysis with Python
 ### Overview
 
 This lab introduces the fundamentals of predictive analytics through the implementation of a Linear Regression model using Python and Scikit-learn.
